@@ -90,3 +90,21 @@ main ul {
 main li {
   margin-bottom: 0.5rem; /* Add spacing between list items */
 }
+/* --- Social Media Icon Links --- */
+.social-links {
+  text-align: center; /* Center the icons within the main content box */
+  margin-top: 2rem;
+}
+
+.social-links a {
+  text-decoration: none; /* Remove underline from the icon links */
+  color: #34495e; /* A nice, neutral dark blue-gray */
+  font-size: 2.5rem; /* Make the icons larger */
+  margin: 0 1rem; /* Add some space between the icons */
+  transition: color 0.2s ease-in-out; /* Smooth color transition on hover */
+}
+
+/* Change icon color when you hover over it */
+.social-links a:hover {
+  color: #2980b9; /* The primary blue color from your theme */
+}
